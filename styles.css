@@ -65,7 +65,7 @@ body {
 /* --------------- Hero ---------------- */
 .hero {
   min-height: calc(100vh - 400px);
-  background: url("Hexagon-HQ-Background-Wallpaper-24869.png") center/cover no-repeat;
+  background: url("smoke.avif") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
