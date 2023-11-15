@@ -1,0 +1,22 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Balkan Mayhem",
+          "price": 4000,
+          "image": { "fields": { "file": { "url": "BalkanMayhemProduct.jpg" } } },
+          "description": "Going to be added soon!"
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Startup Hell",
+          "price": 2500,
+          "image": { "fields": { "file": { "url": "StartupHellProduct.jpg" } } },
+          "description": "Will add soon!"
+        }
+      }
+    ]
+  }
