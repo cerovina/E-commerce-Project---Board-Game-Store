@@ -208,9 +208,20 @@ class UI {
         cart = cart.filter(item => item.id !== id);
         this.setCartValues(cart);
         Storage.saveCart(cart);
-        let button = this.getSingleButton(id);
-        button.disabled = false;
-        button.innerHTML = `<i class="fas fa-shopping-cart"></i>ADD TO CART`;
+    
+        // Find the button and update its state
+        buttonsDOM.forEach(button => {
+            if (button.dataset.id === id) {
+                button.disabled = false;
+                button.innerHTML = `<i class="fas fa-shopping-cart"></i>BUY`;
+            }
+        });
+    
+        // Remove the corresponding cart item from the DOM
+        const removeElement = document.querySelector(`.cart-item .remove-item[data-id="${id}"]`);
+        if (removeElement) {
+            removeElement.parentElement.parentElement.remove();
+        }
     }
 
     getSingleButton(id){
@@ -263,4 +274,3 @@ menuButton.addEventListener("click", function (event) {
 document.body.addEventListener("click", function () {
     menuOptions.style.display = "none"; // Close the menu when clicking anywhere outside
 });
-
