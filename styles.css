@@ -365,3 +365,19 @@ body {
 .filters label, input, select {
   margin-right: 10px;
 }
+
+.description-link {
+  font-style: italic;
+  position: relative;
+  border: none;
+  letter-spacing: var(--mainSpacing);
+  font-weight: bold;
+  transition: var(--mainTransition);
+  cursor: pointer;
+  color: black;
+  margin-left: 10px;
+  padding: 2.7%;
+  background-color: rgb(231, 226, 221);
+  text-decoration: none;
+  vertical-align: middle;
+}
