@@ -354,17 +354,6 @@ body {
 
 /* --------------- End of Cart ---------------- */
 
-.filters {
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
-  display: flex;
-}
-
-.filters label, input, select {
-  margin-right: 10px;
-}
-
 .description-link {
   font-style: italic;
   position: relative;
@@ -382,6 +371,10 @@ body {
 }
 
 /* Filter Section Styles */
+.filter-section {
+  font-size: 1.5rem;
+  max-width: 100%;
+}
 .filters {
   align-items: center;
   justify-content: center;
