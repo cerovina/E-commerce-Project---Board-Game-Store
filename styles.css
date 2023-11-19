@@ -57,7 +57,7 @@ body {
   list-style: none;
   position: absolute;
   top: 65%;
-  left: 11%;
+  left: 15%;
   background: var(--mainWhite);
   border: 1px solid var(--mainBlack);
   padding: 10px;
@@ -104,7 +104,7 @@ body {
 /* --------------- Hero ---------------- */
 .hero {
   min-height: calc(100vh - 400px);
-  background: url("smoke.avif") center/cover no-repeat;
+  background: url("grid.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -144,7 +144,6 @@ body {
 .section-title h2 {
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 5rem;
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
 }
@@ -380,4 +379,31 @@ body {
   background-color: rgb(231, 226, 221);
   text-decoration: none;
   vertical-align: middle;
+}
+
+/* Filter Section Styles */
+.filters {
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+}
+
+.filters label,
+.filters input,
+.filters select {
+  margin-right: 10px;
+  width: 50%;
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+
+/* Input and Select Styles */
+select,
+input {
+  padding: 8px;
+  box-sizing: border-box;
 }
