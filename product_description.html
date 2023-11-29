@@ -9,8 +9,7 @@
 
     <div class="product-description-container">
         <h2 id="product-name"></h2>
-        <p id="product-description"></p>
-        <p id="product-price"></p>
+        <p class="desc" id="product-description"></p>
     </div>    
 
     <script>
@@ -30,7 +29,6 @@
                     if (product) {
                         document.getElementById("product-name").innerText = product.fields.title;
                         document.getElementById("product-description").innerText = product.fields.description;
-                        document.getElementById("product-price").innerText = `${product.fields.price}rsd`;
                     } else {
                         // Handle product not found
                         console.error('Product not found.');
@@ -53,14 +51,23 @@
         padding-top: 30px;
         font-size: 3em;
     }
-    p {
+    .desc{
         margin: auto;
+        margin-top: 50px;
         align-items: center;
         justify-content: center;
         text-align: center;
-        width: 75%;
         padding-top: 30px;
-        font-size: 1.5em;
+        font-size: 2em;
+        width: 30%;
+        background-color: white;
+        padding: 2%;
+        border: 2px solid black;
+    }
+    @media screen and (max-width: 768px) {
+        .desc {
+            width: 50%;
+        }
     }
 </style>
 

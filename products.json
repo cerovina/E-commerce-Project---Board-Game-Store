@@ -6,7 +6,7 @@
           "title": "Balkan Mayhem",
           "price": 4000,
           "image": { "fields": { "file": { "url": "BalkanMayhemProduct.jpg" } } },
-          "description": "Going to be added soon!"
+          "description": "Dive into a Balkan conquest game with troop production, vassal resource income, land grabbing, shipbuilding, clashing swords and annoying your friends with last moment decisions!"
         }
       },
       {
@@ -15,8 +15,9 @@
           "title": "Startup Hell",
           "price": 2500,
           "image": { "fields": { "file": { "url": "StartupHellProduct.jpg" } } },
-          "description": "Will add soon!"
+          "description": "Enter the boots of an HR and assemble the perfect team to create better apps then your opponent! Be careful though, as for a perfect match, you will need both front-end and back-end developers with specific programming language knowledge and unique experience. And, of course, the (potentially) most powerful of them all - interns!"
         }
       }
+
     ]
   }
